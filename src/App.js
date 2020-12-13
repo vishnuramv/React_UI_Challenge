@@ -1,9 +1,10 @@
 import './App.css';
+import SignUp from './UI/day001/SignUp'
 
 function App() {
   return (
     <div className="app">
-      <h1>Hello World🚀🔥!</h1>
+        <SignUp />
     </div>
   );
 }
