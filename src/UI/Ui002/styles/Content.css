@@ -1,0 +1,49 @@
+.content {
+    height: 100vh;
+    width: fit-content;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3% 5% 2% 0;
+    font-family: Montserrat;
+}
+
+.content__body {
+    text-align: right;
+    color: white;
+}
+
+.content__body h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 103px;
+    margin-bottom: 30px;
+    text-shadow: 0px 15px 45px rgba(0, 0, 0, 0.3);
+}
+
+.content__body p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 177.1%;
+}
+
+.content__body button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+    box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+    font-family: Montserrat;
+    margin-top: 20px;
+}
+
+.content__body button span {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+} 
+

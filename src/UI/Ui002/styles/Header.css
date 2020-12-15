@@ -1,0 +1,31 @@
+.header {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2% 0 2% 5%;
+} 
+
+
+.header__links {
+    color: gray;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Montserrat;
+}
+
+.header__links li {
+    padding: 5px 0;
+}
+
+.header__active {
+    color: white;
+    font-size: 18px;
+}
+
+.header__icons img {
+    margin-right: 20px;
+}
