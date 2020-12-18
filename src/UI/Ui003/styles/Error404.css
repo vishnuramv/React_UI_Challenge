@@ -1,0 +1,95 @@
+.error {
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5% 0 0 15%;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.error__404 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 302px;
+    line-height: 300px;
+    background: -webkit-linear-gradient(#0765E3, #AE01FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.error__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52px;
+}
+.error__description {
+    margin-top: 1%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.error__links {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.error__links button {
+    background: linear-gradient(196.22deg, #0765E3 -82.85%, #AE01FF 180.19%);
+    border: none;
+    outline: none;
+    padding: 15px 18px;
+}
+
+.error__links button img {
+    width: 40px;
+    object-fit: contain;
+}
+
+.error__links p {
+    margin-left: 15%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+@media (max-width: 420px) {
+    .error__404 {
+        font-size: 100px;
+        line-height: 130px;
+    }
+    .error__text {
+        margin-top: 1%;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .error__description {
+        margin-top: 3%;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .error__links {
+        margin-top: 10%;
+    }
+    .error__links button {
+        padding: 10px 13px;
+    }
+    .error__links button img {
+        width: 30px;
+    }
+    .error__links p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
